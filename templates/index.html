@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎈 Anlam Oyunu - Başlangıç</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #FFD6EC, #C8F4FF);
+      color: #444;
+      text-align: center;
+      padding: 30px;
+      margin: 0;
+    }
+
+    h2 {
+      color: #FF6B6B;
+      font-size: 42px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      background-color: #fffbe6;
+      display: inline-block;
+      padding: 30px 40px;
+      border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-size: 24px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .radio-group {
+      margin: 20px 0;
+    }
+
+    .radio-group input {
+      transform: scale(1.5);
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .radio-group label {
+      font-size: 24px;
+      cursor: pointer;
+      color: #444;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    button {
+      margin-top: 30px;
+      font-size: 24px;
+      background-color: #50C878;
+      color: white;
+      border: none;
+      padding: 15px 35px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background-color: #3CB371;
+    }
+
+    .emoji {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">🧠🌈🎲</div>
+  <h2>🎉 Anlam Oyunu 🎉</h2>
+  <div class="subtitle">Hadi başlayalım! Oynamak istediğin oyunu seç.</div>
+
+  <form method="POST">
+    <label>Hangi oyunu oynamak istersin?</label>
+    <div class="radio-group">
+      <input type="radio" name="tip" value="es" id="es" required />
+      <label for="es">✨ Eş Anlam</label><br />
+      <input type="radio" name="tip" value="zit" id="zit" required />
+      <label for="zit">⚡ Zıt Anlam</label>
+    </div>
+    <button type="submit">🚀 Başla</button>
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
+

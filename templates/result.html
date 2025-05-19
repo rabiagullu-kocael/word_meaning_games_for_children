@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎯 Anlam Oyunu - Sonuç</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #FFFDE1, #D0F0FD);
+      color: #333;
+      text-align: center;
+      padding: 30px;
+      margin: 0;
+    }
+
+    h2 {
+      color: #FF6B6B;
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px #fff;
+    }
+
+    h3.dogrular-baslik {
+      font-size: 28px;
+      color: #444;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 0 1px 1px #eee;
+    }
+
+    .mesaj {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #008080;
+      font-weight: bold;
+    }
+
+    .dogrular {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Ortala başlık ve liste kutusunu */
+      gap: 10px;
+    }
+
+    .dogrular ul {
+      list-style-type: "✅ ";
+      list-style-position: inside;
+      padding-left: 10px;
+      text-align: left; /* Liste içeriği sola yaslı */
+      max-width: 400px;
+      width: 100%;
+      border-radius: 12px;
+      background: #f9f9f9;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 15px 20px;
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    .dogrular li {
+      margin: 8px 0;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .puan {
+      font-weight: bold;
+      font-size: 24px;
+      color: #3B3B98;
+      margin-bottom: 20px;
+    }
+
+    .butonlar {
+      margin-top: 30px;
+    }
+
+    button {
+      font-size: 22px;
+      background-color: #50C878;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background-color: #3CB371;
+    }
+
+    strong {
+      color: #444;
+    }
+
+    .emoji {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .cevaplar-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+
+    .kutucuk {
+      background: linear-gradient(135deg, #ffdab9, #ffe4e1);
+      padding: 20px 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-size: 22px;
+      color: #333;
+      min-width: 220px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .kutucuk:hover {
+      transform: scale(1.05);
+    }
+
+    .ikon {
+      font-size: 30px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .ekstra-bilgi {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">🎉📘🥳</div>
+  <h2>Oyunun Sonucu</h2>
+
+  <div class="mesaj">{{ mesaj }}</div>
+
+  <div class="cevaplar-container">
+    <div class="kutucuk">
+      <span class="ikon">🔤</span><br>
+      <strong>Kelime:</strong><br>
+      {{ kelime }}
+    </div>
+    <div class="kutucuk">
+      <span class="ikon">✏️</span><br>
+      <strong>Senin Cevabın:</strong><br>
+      {{ cevap }}
+    </div>
+  </div>
+
+  <div class="dogrular">
+    <h3 class="dogrular-baslik">Doğru Cevaplar</h3>
+    <ul>
+      {% for d in dogrular %}
+        <li>{{ d }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="puan">🌟 Puanın: {{ puan }}</div>
+
+  <div class="butonlar">
+    <a href="{{ url_for('index') }}">
+      <button>Yeni Oyuna Başla</button>
+    </a>
+
+    <form action="{{ url_for('oyun') }}" method="GET" style="display:inline-block;">
+      <input type="hidden" name="tip" value="{{ tip }}">
+      <button type="submit">Devam Et</button>
+    </form>
+
+    <div class="ekstra-bilgi">
+      ⚙️ <strong>Bu oyun, doğal dil işleme teknolojileri kullanılarak geliştirilmiştir.</strong><br>
+      Doğru cevaplar, yapay zekâ destekli Türkçe dil modeli ile analiz edilerek belirlenmiştir.
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

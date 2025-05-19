@@ -1,0 +1,101 @@
+Kelime,Cumle,ZitCevap
+akıllı,Bu çocuk çok [MASK] davranıyor.,akılsız
+temiz,Bu oda çok  [MASK] görünüyor.,kirli
+çalışkan,O  [MASK] bir öğrenci.,tembel
+mutlu,Onun yüzü hep  [MASK].,üzgün
+güzel,Bu çiçekler oldukça  [MASK].,çirkin
+iyi,O kö [MASK]  niyetli biri.,kötü
+zor,Bu görev çok  [MASK].,kolay
+doğru,Verdiğin bilgi  [MASK].,yanlış
+uzun,Bu yol çok  [MASK].,kısa
+genç,O  [MASK] bir adam.,yaşlı
+dost,Onlar  [MASK] oldular.,düşman
+sessiz,Çocuklar çok  [MASK].,gürültülü
+çabuk,Toplantıya çok  [MASK] geldin.,yavaş
+hafif,Bu kutu çok  [MASK].,ağır
+aydınlık,Oda  [MASK] ve soğuk.,karanlık
+sevimli,O çok  [MASK] bir tavır sergiledi.,itici
+aç,O hep  [MASK] kalır.,tok
+zengin,Onlar  [MASK] bir mahallede yaşıyor.,fakir
+güçlü,O  [MASK] biri.,zayıf
+hızlı,Bu araba çok  [MASK] gidiyor.,yavaş
+şeffaf,Bu cam  [MASK] görünüyor.,bulanık
+kolay,Bu iş çok  [MASK].,zor
+yeni, [MASK] kitapları seviyorum.,eski
+yüksek,Bina  [MASK] ve küçük.,alçak
+büyük,O  [MASK] bir köyde yaşıyor.,küçük
+açık, [MASK] kapıyı açın lütfen.,kapalı
+neşeli,O bugün çok  [MASK].,hüzünlü
+kibar,Onun tavrı çok  [MASK].,kaba
+yumuşak,Taş çok se [MASK]  ve soğuk.,sert
+meraklı,O bu konuya karşı çok  [MASK] bizi dinlemedi bile.,ilgisiz
+saygılı,O  [MASK] davranıyor.,saygısız
+düz,Yol  [MASK] ve tehlikeli.,eğri
+ilginç,Bu film çok  [MASK].,sıradan
+sıcak,Hava bugün çok  [MASK].,soğuk
+dolu,Oda tamamen  [MASK].,boş
+geç,Toplantıya  [MASK] geldin.,erken
+karanlık,Odada çok  [MASK] var.,aydınlık
+sakin,Çocuklar çok  [MASK].,gürültülü
+umutlu,Durumdan çok  [MASK] görünüyordu tüm inancını kaybetmişti.,umutsuz
+adil,Karar çok  [MASK] oldu.,haksız
+cesur,O  [MASK] biri.,korkak
+tatlı,Bu ilaç çok  [MASK].,acı
+nazik,O  [MASK] davrandı.,kaba
+yardımsever,O çok  [MASK].,bencil
+temkinli,O  [MASK] hareket etti.,düşüncesiz
+anlayışlı,O çok  [MASK] davranıyor.,katı
+cömert,O  [MASK] biri.,cimri
+bilgili,O  [MASK] kaldı.,cahil
+dikkatli,O  [MASK] ve unutkan.,dalgın
+düzenli,O çok  [MASK].,dağınık
+temiz,Burası  [MASK] kokuyor.,pis
+kısa, [MASK] yolculuklar seviyorum.,uzun
+uyumlu,O  [MASK] biri.,uyumsuz
+saydam,Bu sıvı çok  [MASK].,opak
+doğal,Bu kumaş  [MASK].,yapay
+canlı,Bitkiler  [MASK] durumda.,ölü
+nezaket, [MASK] davranışları çok fazla.,kabalık
+cesaret,O  [MASK] dolu.,korku
+barış, [MASK] ortamı hâkim.,savaş
+barışçıl,O çok  [MASK].,saldırgan
+dostluk, [MASK] artıyor.,düşmanlık
+sevgi, [MASK] her şeyi kapladı.,nefret
+umut, [MASK] hâkim.,umutsuzluk
+güler yüzlü,O  [MASK] suratlı.,asık
+eğlenceli,O çok  [MASK].,sıkıcı
+hür,O  [MASK] durumda.,bağımlı
+akıcı,O çok  [MASK] konuşuyor.,takıntılı
+özgür,O  [MASK] durumda.,kısıtlı
+güvenli,Burası  [MASK] yer.,tehlikeli
+sağlıklı,O  [MASK] görünüyor.,hasta
+temel, [MASK] şeylerle uğraşıyor.,ikincil
+yüksekten,Sınav sonuçları  [MASK] yükseğe sıralanmıştı.,düşükten
+gerçek, [MASK] söylüyor.,yalan
+aktif,O  [MASK] kalıyor.,pasif
+kırılgan,O çok  [MASK].,sağlam
+dolu,O tamamen  [MASK].,boş
+nazik,O  [MASK] ve kaba.,sert
+tatlı,O çok  [MASK].,acı
+aydın,O  [MASK] kaldı.,karanlık
+sabırlı,O çok  [MASK].,aceleci
+kararlı,O  [MASK] kaldı.,kararsız
+istikrarlı,O  [MASK].,dengesiz
+şen,O  [MASK].,üzgün
+açgözlü,O çok  [MASK].,cömert
+duyarlı,O  [MASK].,duyarsız
+zamanında,O  [MASK] kaldı.,geç
+sevecen,O  [MASK] davranıyor.,kaba
+gerçekçi,O  [MASK].,hayalperest
+cesur,O  [MASK].,korkak
+sabırlı,O çok  [MASK].,aceleci
+uygun,O  [MASK] konuştu.,uygunsuz
+dürüst,O  [MASK] birine benzemiyor.,yalancı
+başarılı,Ne yazık ki o  [MASK] bir öğrenci.,başarısız
+fedakar,O çok  [MASK] sadece kendini düşünür.,bencil
+güler,O  [MASK].,somurtkan
+çözümcü,O  [MASK].,problemli
+barışçıl,O  [MASK].,kavgacı
+yalnız,O  [MASK] ortamları pek sevmez daha çok tek başına kalmayı sever.,kalabalık
+parlak,O  [MASK] görünüyorhiç ilgidini çekmedi.,mat
+hareketli,O  [MASK] sularda yüzmeyi seviyor.,durgun

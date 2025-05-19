@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎈 Anlam Oyunu - Oyun</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #FFE4F0, #D9F7FF);
+      color: #444;
+      text-align: center;
+      padding: 30px;
+      margin: 0;
+    }
+
+    h2 {
+      color: #FF6B6B;
+      font-size: 40px;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px #fff;
+    }
+
+    .kelime-box {
+      font-size: 34px;
+      font-weight: bold;
+      margin: 25px 0;
+      padding: 15px 25px;
+      display: inline-block;
+      background-color: #fffbe6;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      color: #3B3B98;
+    }
+
+    input[type="text"] {
+      font-size: 24px;
+      padding: 12px;
+      width: 320px;
+      border: 2px dashed #3CB371;
+      border-radius: 12px;
+      margin-top: 10px;
+      outline: none;
+    }
+
+    button {
+      margin-top: 20px;
+      font-size: 24px;
+      background-color: #50C878;
+      color: white;
+      border: none;
+      padding: 15px 35px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background-color: #3CB371;
+    }
+
+    .puan {
+      font-size: 22px;
+      margin-top: 20px;
+      color: #444;
+      font-weight: bold;
+    }
+
+    .geri-btn {
+      margin-top: 40px;
+      font-size: 20px;
+      background-color: #FF6F61;
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    .geri-btn:hover {
+      background-color: #FF3B2F;
+    }
+
+    .emoji {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">🔍🎉📚</div>
+  <h2>Kelimeyi Tahmin Et!</h2>
+
+  <div class="kelime-box">Kelime: {{ kelime }}</div>
+
+  <form action="{{ url_for('oyun') }}" method="POST">
+    <input type="hidden" name="tip" value="{{ tip }}">
+    <input type="hidden" name="kelime" value="{{ kelime }}">
+    <input type="text" name="cevap" placeholder="Tahminini buraya yaz ✏️" autocomplete="off" required />
+    <br />
+    <button type="submit">✅ Gönder</button>
+  </form>
+
+  <div class="puan">🌟 Puanın: {{ puan }}</div>
+
+  <a href="{{ url_for('index') }}">
+    <button class="geri-btn">🔁 Oyunu Değiştir / Yeni Başla</button>
+  </a>
+</body>
+</html>
+

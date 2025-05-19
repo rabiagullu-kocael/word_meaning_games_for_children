@@ -1,0 +1,101 @@
+Kelime,Cumle,EsCevap
+akıllı,Ahmet gerçekten çok  [MASK] bir öğrenci tüm sorulrı doğru cevaplıyor.,zeki
+temiz,Oda her zaman çok  [MASK] ve düzenlidir.,pak
+çalışkan,Ayşe çok  [MASK] çalışıyor hiç pes etmiyor.,gayretli
+mutlu,Mehmet dün çok  [MASK] görünüyordu yüzünde güller açmıştı.,neşeli
+güzel,Bu çiçekler gerçekten çok  [MASK] adeta kendine çekiyor.,çekici
+iyi,Bu ürün  [MASK] ve kullanışlı.,faydalı
+zor,Bu çok  [MASK] cevizmiş bir türlü kıramadım!,çetin
+doğru,Bu tartışmada  [MASK] olan taraf o idi.,haklı
+uzun,Bu yol gerçekten  [MASK] ve uzundur.,büyük
+genç,Ali  [MASK] ve enerjik biri.,delikanlı
+dost,O benim en iyi  [MASK].,arkadaş
+sessiz,Oda bugün çok  [MASK] ve huzurlu.,sakin
+çabuk,Yetişemezsin sanmıştım ama toplantıya çok  [MASK] geldin.,hızlı
+hafif,Bu yük gerçekten  [MASK] ve hafif.,az
+aydınlık,Işık alan bir oda oldukça  [MASK] ve aydınlık.,parlak
+sevimli,O çok  [MASK] bir çocuk.,tatlı
+aç,Kedinin  [MASK] ve yemek istiyor.,karnı aç
+zengin,Onun ailesi çok  [MASK].,varlıklı
+güçlü,Güreşçiler çok  [MASK] ve dayanıklı.,kuvvetli
+mutfak,Bu evin  [MASK] çok geniş.,yemekhane
+şeffaf,Bu cam oldukça  [MASK] ve berrak.,saydam
+kolay,Bu sınav çok  [MASK] ve rahat.,basit
+yeni,Bu ekmek fırından şimdi çıktı ve çok  [MASK].,taze
+temel,Bu konu  [MASK] ve esas noktadır.,ana
+yüksek,Bina çok  [MASK] ve yüce.,iri
+kocaman,O gerçekten  [MASK] bir yapı acaba nasıl yapıldı?,devasa
+açık,Konuşman çok  [MASK] ve anlaşılır.,net
+neşeli,Bugün çok  [MASK] ve şen görünüyorsun.,keyifli
+temkinli,Her zaman  [MASK] ve tedbirli ol.,dikkatli
+kibar,O çok  [MASK] ve nazik bir insandır.,ince
+yumuşak,Bu yastık  [MASK] olduğu için çok rahat.,pamuk gibi
+meraklı,O çok  [MASK] ve öğrenmeye açık.,ilgili
+anlayışlı,Ahmet çok  [MASK] ve sabırlı.,hoşgörülü
+saygılı,O çok nazik ve  [MASK].,edepli
+düz,Bu yol tamamen  [MASK] ve dümdüz.,yassı
+ilginç,Bu konu oldukça  [MASK].,enteresan
+yoğun,Sokağın trafiği çok  [MASK].,sıkışık
+sıcak,Malesef yangın  çok  [MASK] ve hararetli.,ateşli
+düzgün,Her şey  [MASK] ve düzenli.,derli toplu
+dolu,Oda tamamen  [MASK] durumda.,taşmış
+geç,Trafikten dolayı toplantıya  [MASK].,gecikmiş
+erken,Toplantıya  [MASK] geldin.,zamanında
+karanlık,Oda oldukça  [MASK] ve ışığsız.,loş
+huzurlu,O ev çok sa [MASK]kin ve rahat.,sakin
+umutlu,Bugün  [MASK] ve beklentiliyim.,iyimser
+adil,Karar tamamen  [MASK] ve tarafsız.,haklı
+cesur,O çok  [MASK] ve kahraman.,yiğit
+hız,Bu araba çok  [MASK] gidiyor.,sürat
+dostluk,Onların  [MASK] çok güçlü.,arkadaşlık
+tatlı,Bu kek çok  [MASK] ve lezzetli.,şekerli
+çevik,O çok  [MASK] ve kıvrak.,atik
+canlı,Bitkiler hala  [MASK].,hayatta
+cesaret,O  [MASK] gösterdi.,yüreklilik
+sevgi,Annenin  [MASK] çok derin.,şefkat
+öğrenci,O çalışkan bir  [MASK].,talebe
+bahar, [MASK] çiçeklerin zamanı.,ilkbahar
+şarkı,Bu  [MASK] çok seviyorum ve hep dinliyorum.,melodi
+bilgi, [MASK] kaynakları çok önemli.,veri
+deniz, [MASK] derin bir su kütlesidir.,okyanus
+orman,Orman  [MASK] bir bölgedir.,ağaçlık
+çiftlik,Çiftlikte  [MASK] ve bahçe var.,tarla
+elma,Elma  [MASK].,mevsim meyvesi
+şenlik,Bu  [MASK] çok eğlenceliydi.,festival
+kutlama, [MASK] büyük bir şölen vardı.,bayram
+oyun,O çok eğlenceli bir  [MASK].,aktivite
+gökyüzü,Gökyüzü  [MASK] gibi geniştir.,semâ
+bulut,Yağmur taşıyan yoğun bir  [MASK].,sis
+hayvan,O  [MASK] bir organizma.,canlı
+kardeş,Ali benim  [MASK].,abi
+yaren,Ahmet benim  [MASK].,refik
+çocuk,O kızına hep  [MASK] diye seslenirdi.,evlat
+anne,Eskiden anneye  [MASK] denirdi.,valide
+baba,Eskiden babaya  [MASK] de denirdi.,peder
+merhamet,Onun  [MASK] çok büyüktür kimseye kıyamaz.,şefkat
+yardım,O bana büyük  [MASK] oldu hep yanımda durdu.,destek
+oyuncak,Bu  [MASK] eğlence aracıdır.,bebek
+kalem,Kalem  [MASK] olarak da bilinir.,yazı aracı
+defter,Bazen defterime  [MASK] da diyorum,yazı kitabı
+kitap,Kitap aynı zamanda bizim  [MASK].,okuma materyali
+okul,Okul aslında bir   [MASK].,eğitim kurumu
+masa,Evde bulunan küçük masya  [MASK] denir,sehpa
+sandalye,Sandalyeye bazen  [MASK] deniyormuş.,oturak
+ışık,Güneşten dolayı odaya  [MASK] geliyordu.,parlaklık
+gölge,Gölge aslında  [MASK].,karanlık alan
+yağmur,Yağmur  [MASK] yağar.,sağanak
+kar,Kara kışın  [MASK] de deriz.,beyaz örtü
+rüzgar,Rüzgar hafif  [MASK] olunca hava çok güzel oluyor.,esinti
+dağ,Karşıdaki yükek  [MASK] ne kadar da ihtişamlı!,tepe
+nehir,Nehir ve  [MASK] akarsu kaynağıdır.,ırmak
+su birikintisi,Su birikintisi yağmur sonucu oluşan küçük  [MASK].,doğal su
+güneş,Güneş aslında   [MASK].,ısı kaynağı
+ay,Ay'a  [MASK] da denir.,gece ışığı
+yıldız,Yıldız bir   [MASK].,gök cismi
+kış,Kış en  [MASK].,soğuk mevsim
+yaz,Yaz en  [MASK].,sıcak mevsim
+sonbahar,Sonbahar  [MASK] ile başlar.,yaprak dökümü
+ilkbahar,İlkbahara  [MASK] da denir çünkü tüm bitkiler aslında uyanışa geçer.,uyanış zamanı
+gece,Gece aslında  [MASK].,karanlık zaman
+gündüz,Gündüz aslında aydı [MASK]nlık zaman.,aydınlık zaman
+öğretmen,Öğretmenin bir diğer adı da  [MASK].,muallim
